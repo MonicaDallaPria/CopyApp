@@ -28,6 +28,7 @@ namespace LogicLibrary
                     File.Copy(s, destFile, true);
                     MessageBox.Show("Files loaded: " + s.ToString() + " from " + sourceFile + " to " + targetPath, "Message");
                 }
+                MessageBox.Show("Files Copied");
             }
         }
     }
