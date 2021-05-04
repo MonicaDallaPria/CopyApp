@@ -10,6 +10,7 @@ namespace CopyDirectory
     public partial class MainWindow : Window
     {
         public string DestFileName { get; private set; }
+        string fileRoot = "";
 
         public MainWindow()
         {
@@ -18,9 +19,11 @@ namespace CopyDirectory
 
         public void Button_Click_1(object sender, RoutedEventArgs e)
         {
+           
             using (var fbd = new FolderBrowserDialog())
             {
                 DialogResult result = fbd.ShowDialog();
+                 fileRoot = fbd.RootFolder.ToString();
                 if (fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     string file = fbd.SelectedPath;
@@ -48,10 +51,11 @@ namespace CopyDirectory
 
         public void Button_Click(object sender, RoutedEventArgs e)
         {
-            CopyTo _logic = new CopyTo();
+            CopyTo logic = new CopyTo();
+            string fileName = fileRoot;
             string sourceDirectory = fileSource.Text;
             string targetDirectory = fileDestination.Text;
-            _logic.Copy(sourceDirectory, targetDirectory);            
+            logic.Copy(sourceDirectory, targetDirectory, fileName);            
         }
     }
 }

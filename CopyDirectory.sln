@@ -8,9 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyingDirectory", "..\CopyingDirectory\CopyingDirectory\CopyingDirectory.csproj", "{BB04B823-3499-4641-B801-DEEE7A9FB435}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53ABDF32-8FDE-477D-B139-E0B9CE3398D7}"
-	ProjectSection(SolutionItems) = preProject
-		Startup.cs = Startup.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
