@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Forms;
 
 namespace CopyDirectory
@@ -9,7 +8,7 @@ namespace CopyDirectory
     /// </summary>
     public partial class MainWindow : Window
     {
-        public string DestFileName { get; private set; }
+        public string DestFileName { get; set; }
         string fileRoot = "";
 
         public MainWindow()

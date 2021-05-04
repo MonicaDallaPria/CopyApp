@@ -1,0 +1,4 @@
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyLogic\obj\Debug\netcoreapp3.1\CopyLogic.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyLogic\obj\Debug\netcoreapp3.1\CopyLogic.AssemblyInfoInputs.cache
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyLogic\obj\Debug\netcoreapp3.1\CopyLogic.AssemblyInfo.cs
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyLogic\obj\Debug\netcoreapp3.1\CopyLogic.csproj.CoreCompileInputs.cache

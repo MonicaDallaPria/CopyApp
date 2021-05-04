@@ -1,9 +1,8 @@
 ﻿using System.IO;
 
-namespace CopyDirectory
+namespace CopyLogic
 {
-
-    public class CopyTo
+    public class CopyLogic
     {
         public void Copy(string sourceDirectory, string targetDirectory, string fileName)
         {
@@ -18,7 +17,7 @@ namespace CopyDirectory
 
             if (Directory.Exists(sourcePath))
             {
-                string[] files = Directory.GetFiles(sourcePath);
+                string[] files = System.IO.Directory.GetFiles(sourcePath);
 
                 // Copy the files and overwrite destination files if they already exist.
                 foreach (string s in files)
@@ -30,12 +29,7 @@ namespace CopyDirectory
                     System.Windows.Forms.MessageBox.Show("Files loaded: " + s.ToString() + " from " + sourceFile + " to " + targetPath, "Message");
                 }
             }
-
         }
 
     }
-
 }
-
-
-
