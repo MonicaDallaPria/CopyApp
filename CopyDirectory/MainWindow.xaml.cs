@@ -10,7 +10,6 @@ namespace CopyDirectory
     public partial class MainWindow : Window
     {
         public string DestFileName { get; private set; }
-        List<string> filelist = new List<string>();
 
         public MainWindow()
         {
