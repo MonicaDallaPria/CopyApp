@@ -1,12 +1,6 @@
-﻿using Microsoft.Win32;
-using Ookii.Dialogs.Wpf;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Forms;
-
-
 
 namespace CopyDirectory
 {
@@ -32,7 +26,7 @@ namespace CopyDirectory
                 {
                     string file = fbd.SelectedPath;
                     {
-                     fileSource.Text = file; // lbFiles.Items.Add(Path.GetFileName(filename)); 
+                     fileSource.Text = file;
                     }
                 }
             }
@@ -47,7 +41,7 @@ namespace CopyDirectory
                 {
                     string file = fbd2.SelectedPath;
                     {
-                        fileDestination.Text = file; // lbFiles.Items.Add(Path.GetFileName(filename)); 
+                        fileDestination.Text = file; 
                     }
                 }
             }
@@ -55,13 +49,10 @@ namespace CopyDirectory
 
         public void Button_Click(object sender, RoutedEventArgs e)
         {
+            CopyTo _logic = new CopyTo();
             string sourceDirectory = fileSource.Text;
             string targetDirectory = fileDestination.Text;
-
-            //Task.Run(() =>
-            //{
-            //   Copy(targetDirectory, x => progressBar.Dispatcher.BeginInvoke(new Action(() => { progressBar.Value = x; lblPercent.Content = x.ToString() + "%"; })));
-            //}).GetAwaiter().OnCompleted(() => progressBar.Dispatcher.BeginInvoke(new Action(() => { progressBar.Value = 100; lblPercent.Content = "100%"; MessageBox.Show("You have successfully copied the file !", "Message", MessageBoxButton.OK, MessageBoxImage.Information); })));
+            _logic.Copy(sourceDirectory, targetDirectory);            
         }
     }
 }

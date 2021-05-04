@@ -15,7 +15,7 @@
         <Button Content="Copy" HorizontalAlignment="Left" Margin="207,224,0,0" VerticalAlignment="Top" Width="89" Height="32" Click="Button_Click"/>
         <Label Content="0%" HorizontalAlignment="Left" Margin="638,176,0,0" VerticalAlignment="Top" Name="lblPercent"/>
         <Button Content="Browse Sources" HorizontalAlignment="Left" Margin="558,62,0,0" VerticalAlignment="Top" Width="97" Height="31" Click="Button_Click_1"/>
-        <Button Content="Browse Sources" HorizontalAlignment="Left" Margin="558,62,0,0" VerticalAlignment="Top" Width="97" Height="31" Click="Button_Click_2"/>
+        <Button Content="Browse Sources" HorizontalAlignment="Left" Margin="558,131,0,0" VerticalAlignment="Top" Width="97" Height="31" Click="Button_Click_2" RenderTransformOrigin="0.478,2.333"/>
        
     </Grid>
 </Window>  
