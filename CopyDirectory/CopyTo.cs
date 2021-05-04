@@ -29,7 +29,7 @@ namespace CopyDirectory
                     fileName = System.IO.Path.GetFileName(s);
                     destFile = System.IO.Path.Combine(targetPath, fileName);
                     System.IO.File.Copy(s, destFile, true);
-                    System.Windows.Forms.MessageBox.Show("Files loaded: " + s.ToString(), "Message");
+                    System.Windows.Forms.MessageBox.Show("Files loaded: " + s.ToString() + " from " + sourceFile + " to " + targetPath, "Message");
                 }
             }
             }
