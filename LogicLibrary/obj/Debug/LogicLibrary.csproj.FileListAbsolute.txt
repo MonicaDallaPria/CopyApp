@@ -1,0 +1,6 @@
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\LogicLibrary\obj\Debug\LogicLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\LogicLibrary\obj\Debug\LogicLibrary.csprojAssemblyReference.cache
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\LogicLibrary\bin\Debug\LogicLibrary.dll
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\LogicLibrary\bin\Debug\LogicLibrary.pdb
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\LogicLibrary\obj\Debug\LogicLibrary.dll
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\LogicLibrary\obj\Debug\LogicLibrary.pdb

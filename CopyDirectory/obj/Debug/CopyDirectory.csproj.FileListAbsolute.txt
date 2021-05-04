@@ -16,3 +16,5 @@ C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyDirectory\bin\Debug\Ookii.Dialogs.
 C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyDirectory\bin\Debug\Ookii.Dialogs.Wpf.pdb
 C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyDirectory\bin\Debug\Ookii.Dialogs.Wpf.xml
 C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyDirectory\obj\Debug\CopyDirectory.csproj.CopyComplete
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyDirectory\bin\Debug\LogicLibrary.dll
+C:\Users\Paul\Desktop\C#8.0\CopyDirectory\CopyDirectory\bin\Debug\LogicLibrary.pdb
