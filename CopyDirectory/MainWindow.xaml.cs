@@ -17,19 +17,14 @@ namespace CopyDirectory
         }
 
         public void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-           
+        {           
             using (var fbd = new FolderBrowserDialog())
             {
                 DialogResult result = fbd.ShowDialog();
-                 fileRoot = fbd.RootFolder.ToString();
-                if (fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    string file = fbd.SelectedPath;
-                    {
-                     fileSource.Text = file;
-                    }
-                }
+                fileRoot = fbd.RootFolder.ToString();
+
+                string file = fbd.SelectedPath;
+                fileSource.Text = file;
             }
         }
 
@@ -38,13 +33,9 @@ namespace CopyDirectory
             using (var fbd2 = new FolderBrowserDialog())
             {
                 DialogResult result = fbd2.ShowDialog();
-                if (fbd2.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    string file = fbd2.SelectedPath;
-                    {
-                        fileDestination.Text = file; 
-                    }
-                }
+
+                string file = fbd2.SelectedPath;
+                fileDestination.Text = file;
             }
         }
 

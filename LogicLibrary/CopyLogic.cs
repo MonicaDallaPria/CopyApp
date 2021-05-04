@@ -10,9 +10,9 @@ namespace LogicLibrary
 
             string sourcePath = sourceDirectory;
             string targetPath = targetDirectory;
-            string destFile = System.IO.Path.Combine(targetPath, fileName);
+            string destFile = Path.Combine(targetPath, fileName);
 
-            string sourceFile = System.IO.Path.Combine(sourcePath, fileName);
+            string sourceFile = Path.Combine(sourcePath, fileName);
             Directory.CreateDirectory(targetPath);
 
             if (Directory.Exists(sourcePath))

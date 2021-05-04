@@ -1,5 +1,4 @@
 ﻿using LogicLibrary;
-using System.IO;
 
 namespace CopyDirectory
 {
@@ -9,11 +8,8 @@ namespace CopyDirectory
         {
             var copyLogic = new CopyLogic();
             copyLogic.Copy(sourceDirectory, targetDirectory, fileName);
-
         }
-
     }
-
 }
 
 
